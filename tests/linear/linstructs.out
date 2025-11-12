@@ -1,0 +1,12 @@
+type: linear struct {#age = int; #name = string}, value: linear struct {#age = 15; #name = "andrew"}
+
+
+class proj.errors.TypeCheckError: illegal type to struct split: string
+
+
+type: string, value: "andrew"
+
+
+class proj.errors.TypeCheckError: there are unused linear values: [age: linint]
+
+

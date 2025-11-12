@@ -1,0 +1,7 @@
+let s = [#name = "andrew", #age = 15]; s;;
+
+let s = "abc"; split s {#name = name, #age = age -> name};;
+
+let s = [#name = "andrew", #age = 15]; split s {#name = name, #age = age -> name};;
+
+let s = [#name = "andrew", #age = 15l]; split s {#name = name, #age = age -> name};;
